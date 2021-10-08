@@ -136,6 +136,10 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+
+        manifestPlaceholders = [
+            appAuthRedirectScheme: 'com.googleusercontent.apps.745545678064-c4ed9mp4dhk24eu6kghvshvta7nkkeuc'
+        ]
     }
     splits {
         abi {
